@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidencia GA10-220501097-AA4-EV01</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f6f9;
+            color: #333;
+        }
+        header {
+            background: #0a3d62;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        section {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #0a3d62;
+            border-left: 5px solid #0a3d62;
+            padding-left: 10px;
+        }
+        ul {
+            line-height: 1.7;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0a3d62;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Evidencia GA10-220501097-AA4-EV01</h1>
+        <p>Conceptos y principios acerca de configuración de servicios</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Descripción General de la Evidencia</h2>
+            <p>
+                Esta evidencia se centra en consolidar los conceptos generales relacionados con clústeres, análisis de riesgo,
+                análisis de impacto, gestión de prioridad, recuperación de desastres, RPO y RTO, planes de continuidad del negocio,
+                gestión de crisis y pruebas de operación. Este documento profundiza en las tecnologías, herramientas y características
+                que se utilizan en arquitecturas basadas en clústeres, así como sus ventajas, desventajas y tipos de procesamiento.
+            </p>
+        </section>
+
+        <section>
+            <h2>Arquitectura de Clústeres</h2>
+            <p>
+                Una arquitectura de clúster consiste en un conjunto de computadoras interconectadas que trabajan juntas para operar
+                como si fueran un solo sistema. Estas arquitecturas son ampliamente utilizadas en entornos empresariales donde se
+                requiere alta disponibilidad, tolerancia a fallos y escalabilidad.
+            </p>
+            <h3>Características principales</h3>
+            <ul>
+                <li>Alta disponibilidad</li>
+                <li>Balanceo de carga</li>
+                <li>Escalabilidad horizontal</li>
+                <li>Tolerancia a fallos</li>
+                <li>Procesamiento paralelo</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tipos de Clústeres</h2>
+            <ul>
+                <li><strong>Clústeres de alta disponibilidad (HA):</strong> Garantizan que los servicios permanezcan activos aun si un nodo falla.</li>
+                <li><strong>Clústeres de balanceo de carga:</strong> Distribuyen las solicitudes entre varios nodos para optimizar el rendimiento.</li>
+                <li><strong>Clústeres de alto rendimiento (HPC):</strong> Utilizados para cálculos intensivos y procesamiento científico.</li>
+                <li><strong>Clústeres de almacenamiento:</strong> Diseñados para gestionar grandes volúmenes de datos.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tipos de Procesamiento</h2>
+            <ul>
+                <li>Procesamiento paralelo</li>
+                <li>Procesamiento distribuido</li>
+                <li>Procesamiento en tiempo real</li>
+                <li>Procesamiento batch</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Análisis de Riesgo e Impacto</h2>
+            <p>
+                El análisis de riesgo permite identificar amenazas que pueden comprometer la operación. El análisis de impacto
+                determina las consecuencias de la interrupción de un servicio, lo cual es fundamental para establecer prioridades
+                y definir estrategias de continuidad.
+            </p>
+        </section>
+
+        <section>
+            <h2>Recuperación de Desastres, RPO y RTO</h2>
+            <ul>
+                <li><strong>Recuperación de desastres:</strong> Estrategias para restaurar operaciones tras fallas críticas.</li>
+                <li><strong>RPO (Recovery Point Objective):</strong> Cantidad máxima de datos que la organización puede permitirse perder.</li>
+                <li><strong>RTO (Recovery Time Objective):</strong> Tiempo máximo aceptable para restablecer un servicio.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Planes de Continuidad y Gestión de Crisis</h2>
+            <p>
+                Los planes de continuidad del negocio garantizan que la operación pueda mantenerse frente a eventos disruptivos.
+                La gestión de crisis coordina la respuesta ante situaciones críticas con el fin de minimizar el daño.
+            </p>
+        </section>
+
+        <section>
+            <h2>Pruebas de Operación</h2>
+            <p>
+                Estas pruebas se realizan para validar que los sistemas, planes de contingencia y mecanismos de recuperación
+                funcionen correctamente bajo diferentes escenarios.
+            </p>
+        </section>
+            <section>
+            <h2>Herramientas y Tecnologías Usadas en Clústeres</h2>
+            <p>Las arquitecturas de clústeres utilizan diversas herramientas y tecnologías que permiten su gestión, monitoreo y operación eficiente. Entre las más utilizadas se encuentran:</p>
+            <ul>
+                <li><strong>Kubernetes:</strong> Plataforma de orquestación de contenedores que permite automatizar despliegues, escalado y operación de aplicaciones distribuidas.</li>
+                <li><strong>Docker:</strong> Herramienta para la creación y ejecución de aplicaciones mediante contenedores ligeros y portables.</li>
+                <li><strong>VMware vSphere:</strong> Solución de virtualización empresarial enfocada en la creación de clústeres de alta disponibilidad.</li>
+                <li><strong>Proxmox VE:</strong> Plataforma de virtualización de código abierto que permite la administración de clústeres de máquinas virtuales y contenedores.</li>
+                <li><strong>Apache Hadoop:</strong> Framework para procesamiento distribuido de grandes volúmenes de datos mediante clústeres de servidores.</li>
+                <li><strong>Ceph:</strong> Sistema de almacenamiento distribuido para entornos empresariales y de alta disponibilidad.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Ventajas y Desventajas de los Clústeres</h2>
+
+            <h3>Ventajas</h3>
+            <ul>
+                <li>Mayor disponibilidad de los servicios.</li>
+                <li>Distribución eficiente de la carga de trabajo.</li>
+                <li>Escalabilidad casi ilimitada.</li>
+                <li>Procesamiento más rápido en tareas científicas y empresariales.</li>
+                <li>Reducción de tiempos de inactividad.</li>
+            </ul>
+
+            <h3>Desventajas</h3>
+            <ul>
+                <li>Mayor complejidad en la configuración inicial.</li>
+                <li>Costos elevados en ciertos entornos empresariales.</li>
+                <li>Requiere personal capacitado para su administración.</li>
+                <li>Dependencia de redes rápidas y estables.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Gestión de Prioridad en Servicios</h2>
+            <p>La gestión de prioridad permite determinar el orden en el que los servicios deben ser atendidos en situaciones de riesgo o interrupción. Esto incluye:</p>
+            <ul>
+                <li>Clasificación de servicios críticos, importantes y secundarios.</li>
+                <li>Asignación de recursos según el impacto de la interrupción.</li>
+                <li>Uso de matrices de criticidad para toma de decisiones rápidas.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Gestión de Crisis</h2>
+            <p>La gestión de crisis implica acciones organizadas para responder de manera efectiva a eventos que amenazan la estabilidad de la operación.</p>
+            <ul>
+                <li>Formación de un comité de crisis.</li>
+                <li>Planificación de comunicación interna y externa.</li>
+                <li>Coordinación con grupos técnicos para restaurar servicios.</li>
+                <li>Evaluación posterior al evento (post-mortem).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Pruebas de Continuidad Operativa</h2>
+            <p>Las pruebas de operación y continuidad permiten garantizar que los planes implementados funcionen en situaciones reales. Entre ellas:</p>
+            <ul>
+                <li><strong>Pruebas de escritorio:</strong> Simulación teórica de un evento disruptivo.</li>
+                <li><strong>Pruebas parciales:</strong> Se evalúa una parte del sistema o un solo servicio.</li>
+                <li><strong>Pruebas completas:</strong> Se valida la restauración total del sistema ante un escenario simulado.</li>
+                <li><strong>Simulacros sin aviso:</strong> Evalúan la capacidad real de respuesta del personal.</li>
+            </ul>
+        </section>
+
+    </div>
+    <footer>
+        <p>&copy; 2025 Evidencia Configuración de Servicios - ADSO</p>
+    </footer>
+</body>
+</html>
